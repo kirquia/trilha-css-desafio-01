@@ -22,7 +22,7 @@
 
 .banner {
     text-align: center;
-    background-image: url('assets/images/banner.png'), radial-gradient(#0a212b, #000000);    
+    background-image: url('../assets/images/banner.png'), radial-gradient(#0a212b, #000000);    
     background-size: auto;
     width: 90rem;
     height: 37rem;
@@ -139,7 +139,7 @@ span {
     width: 1440px;
     height: 363px;
     border: 1px solid #33A8DB;
-    background-image: url('assets/images/woman-code.png'), radial-gradient(#0a212b, #000000);    
+    background-image: url('../assets/images/woman-code.png'), radial-gradient(#0a212b, #000000);    
     background-attachment: fixed;
     background-size: 100%;
 }
