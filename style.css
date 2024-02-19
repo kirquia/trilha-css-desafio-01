@@ -1,0 +1,197 @@
+@font-face {
+    font-family: Raleway;
+    src: url('../');
+}
+
+@font-face {
+    font-family: Raleway-ExtraBold;
+    src: url('assets/fonts/Raleway-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: Raleway-Light;
+    src: url('assets/fonts/Raleway-Light.ttf');
+}
+
+* {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    }
+
+.banner {
+    text-align: center;
+    background-image: url('assets/images/banner.png'), radial-gradient(#0a212b, #000000);    
+    background-size: auto;
+    width: 90rem;
+    height: 37rem;
+    margin: 0;
+    border: 1px solid #33A8DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    width: 35rem;
+    height: 35rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 13rem;
+    height: 13rem;
+    background-size: auto;
+    background-color: rgba(6, 22, 29, 0.5);
+    border-radius: 50%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Raleway-ExtraBold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #33A8DB;
+    font-size: 40px;
+    padding: 1.5rem 1.35rem 0rem;
+}
+
+#paragrafo1 {
+    font-family: Raleway-Light;
+    text-align: center;
+    color: white;
+    font-size: large;
+    letter-spacing: 1px;
+    padding: 1.5rem 1.35rem 1.5rem;
+}
+
+button {
+    font-family: Raleway-ExtraBold;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33A8DB;
+    background-color: transparent;
+    padding: 18px 54px 18px;
+    border: 2px solid #33A8DB;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #33A8DB;
+    margin: 75px 300px 30px;
+}
+
+#paragrafo2 {
+    font-family: Raleway-Light;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 30px 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-family: Raleway-Light;
+    text-align: center;
+    color: #33A8DB;
+    font-size: 16px;
+}
+
+.module {
+    font-family: Raleway-Light;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    width: 550px;
+    height: 45px;
+    border: 1px solid #33A8DB;
+    border-radius: 23px;
+    box-shadow: inset 5px 5px #0a212b;
+    background-color: #252525;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#course-content {
+    text-align: center;
+    background-color: #05080a;
+    width: 1440px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #33A8DB;
+}
+
+#transform-world {
+    width: 90rem;
+    height: 22.7rem;
+    border: 1px solid #33A8DB;
+    background-image: url('assets/images/woman-code.png'), radial-gradient(#0a212b, #000000);    
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#transform-world p {
+    text-align: left;
+    font-family: Raleway-ExtraBold;
+    font-weight: bold;
+    font-size: 2.7rem;
+    color: white;
+    text-shadow: 3px 2px #33A8DB;
+    text-transform: lowercase;
+    padding: 105px 980px 105px 180px;
+}
+
+#professional-challenges {
+    text-align: center;
+    background-color: #05080a;
+    width: 1440px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #33A8DB;
+}
+
+#paragrafo3 {
+    font-family: Raleway-Light;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 30px 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-family: Raleway-Light;
+    text-align: center;
+    background-image: linear-gradient( #000000, #0a212b);
+    width: 90rem;
+    height: 10rem;
+    border: 1px solid #33A8DB;
+    color: white;
+}
+
+.dio-logo {
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem .3rem;
+}
+
+a {
+    font-family: Raleway-ExtraBold;
+    color: #33A8DB;
+    text-decoration: none;
+}
